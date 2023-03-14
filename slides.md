@@ -26,7 +26,8 @@ layout: intro
 
 # TDD Workshop
 
-Daniel Raniz Raneland
+Daniel Raniz Raneland<br/>
+Kodande arkitekt @ factor10
 
 <ul class="list-none! columns-2">
 
@@ -46,26 +47,42 @@ Daniel Raniz Raneland
 layout: center
 ---
 
-# Testing Temperature Check
+# Agenda
+
+<ul>
+
+<li class="opacity-100 text-1.3em">Introduktion av TDD</li>
+<li class="opacity-30">Ensemblesession: CEO Bowling</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Kort mellanspel</li>
+<li class="opacity-30">Parprogrammering</li>
+
+</ul>
 
 ---
 layout: center
 ---
 
-# What is Test Driven Development
-
-<h3 v-click>Letting the tests <em>drive</em> the development</h3>
+# Temperaturkoll
 
 ---
 layout: center
 ---
 
-# Why Do _I_ practice TDD?
+# Vad är testdriven utveckling?
+
+<h3 v-click>Att låta testerna <em>driva</em> utvecklingen</h3>
+
+---
+layout: center
+---
+
+# Varför sysslar _jag_ med TDD?
 
 <v-clicks>
 
-- By writing the tests first, the code is by definition testable
-- Tests are forced to be _meaningful_
+- Genom att skriva testerna först blir koden per definiton testbar
+- Man tvingas till att skriva _meningsfulla_ tester
 
 </v-clicks>
 
@@ -73,7 +90,7 @@ layout: center
 layout: center
 ---
 
-# Three Guiding Principles
+# Tre principer
 
 <v-clicks>
 
@@ -83,7 +100,7 @@ layout: center
 
 </v-clicks>
 
-<p v-click>TDD helps with <em>two</em> of these</p>
+<p v-click>TDD hjälper mig med <em>två</em> av dem</p>
 
 ---
 layout: center
@@ -91,7 +108,7 @@ layout: center
 
 # Keep It Simple Stupid
 
-By letting the tests incrementally drive the implementation it is easy to keep changes minimal between each iteration and therefore keep the code as simple as possible.
+Genom att låta testen driva utvecklingen inkrementellt är det enkelt att hålla ändringarna minimala och därmed hålla koden simpel.
 
 ---
 layout: center
@@ -99,23 +116,23 @@ layout: center
 
 # You Aren't Going to Need It
 
-By not making more changes to the code than is necessary to pass all the tests,
-we prevent ourselves from thinking ahead and creating complex, adaptable solutions that may never be needed
+Genom att inte göra större ändringar än vad som behövs för att passera alla tester förhindrar vi att vi springer iväg 
+med en överkomplicerad lösning som kanske aldrig behövs.
 
-<p v-click><em>If no test require the code - don't write it!</em></p>
+<p v-click><em>Om inget test kräver koden - skriv den inte!</em></p>
 
 ---
 layout: center
 ---
 
-# TDD Distilled
+# TDD destillerat
 
 <ol>
-<li v-click>Write a test</li>
-<li v-click style="color: red">Make it fail</li>
-<li v-click style="color: green">Make it pass</li>
-<li v-click>Refactor</li>
-<li v-click>Repeat</li>
+<li v-click>Skriv ett testfall</li>
+<li v-click style="color: red">Få det att gå rött</li>
+<li v-click style="color: green">Få det att gå grönt</li>
+<li v-click>Refaktorisera</li>
+<li v-click>Repetera</li>
 </ol>
 
 
@@ -123,12 +140,12 @@ layout: center
 transition: fade
 ---
 
-# Why Do We Fail?
+# Varför rött?
 
 
 <v-clicks>
 
-```java
+```java {all|6}
 class PersonTest {
 
   @Test
@@ -142,7 +159,7 @@ class PersonTest {
 </v-clicks>
 ---
 
-# Why Do We Fail?
+# Varför rött?
 
 ```python
 import unittest
@@ -171,13 +188,13 @@ if __name__ == "__main__":
 layout: center
 ---
 
-# What Should We Test?
+# Vad ska man testa?
 
-<p v-click>Everything should be tested, but everything doesn't need a test case</p>
+<p v-click>Allting bör testas, men allting måste inte ha ett testfall</p>
 
 ---
 
-# What Should We Test?
+# Vad ska man testa?
 
 <div style="opacity: 0">
 
@@ -195,7 +212,7 @@ def circle_area(diameter):
 
 ---
 
-# What Should We Test?
+# Vad ska man testa?
 
 ```python
 def radius(diameter):
@@ -209,58 +226,96 @@ def circle_area(diameter):
 layout: fact
 ---
 
-# Live Demo
-
----
-layout: statement
----
-
-# Your Turn!
-
-## https://raniz85.github.io/ceo-bowling-kata/
-
-<p></p>
-
-## https://github.com/tdd-starters/
-
----
-
-# Intermission
-
-- What is hard?
-- How many have reached part 2 or beyond?
-- How many have strictly followed the TDD cycle?
+# Livedemo
 
 ---
 layout: center
 ---
 
-# TDD For Cheaters
+<ul>
+
+<li class="opacity-30">Introduktion av TDD</li>
+<li class="opacity-100 text-1.3em">Ensemblesession: CEO Bowling</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Kort mellanspel</li>
+<li class="opacity-30">Parprogrammering</li>
+
+</ul>
+
+---
+layout: center
+---
+
+# Utvärdering
+
+- Hur gick det?
+- Vad var svårt?
+
+---
+layout: statement
+---
+
+# Test är ett hantverk
+
+---
+layout: center
+---
+
+<ul>
+
+<li class="opacity-30">Introduktion av TDD</li>
+<li class="opacity-30">Ensemblesession: CEO Bowling</li>
+<li class="opacity-100 text-1.3em">Lunch</li>
+<li class="opacity-30">Kort mellanspel</li>
+<li class="opacity-30">Parprogrammering</li>
+
+</ul>
+
+---
+layout: center
+---
+
+<ul>
+
+<li class="opacity-30">Introduktion av TDD</li>
+<li class="opacity-30">Ensemblesession: CEO Bowling</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-100 text-1.3em">Kort mellanspel</li>
+<li class="opacity-30">Parprogrammering</li>
+
+</ul>
+
+---
+layout: center
+---
+
+# TDD för fuskare
 
 <ol>
-<li v-click>Be too excited to remember to write the test first</li>
-<li v-click>Write some code</li>
-<li v-click>Remember that you should have started with the test</li>
-<li v-click><em>Discard (or comment out) your code</em></li>
-<li v-click>Write a test</li>
-<li v-click style="color: red">Make sure it fails for the right reason</li>
-<li v-click style="color: green">Make it pass</li>
-<li v-click>Refactor</li>
-<li v-click>Repeat (from 5)</li>
+<li v-click>Var för exalterad för att komma ihåg att skriva testet först</li>
+<li v-click>Skriv lite kod</li>
+<li v-click>Kom ihåg att du skulle börjat med testet</li>
+<li v-click><em>Släng (eller kommentera ut) koden</em></li>
+<li v-click>Skriv ett testfall</li>
+<li v-click style="color: red">Se till att det går rött - av rätt anledning</li>
+<li v-click style="color: green">Se till att det går grönt</li>
+<li v-click>Refaktorisera</li>
+<li v-click>Repetera (från 5)</li>
 </ol>
 
 ---
 layout: center
 ---
 
-# If You Finish Early
+<ul>
 
-- FizzBuzz
-- RPN Calculator
-- https://adventofcode.com
-  - 2021 - day 6
-  - 2021 - day 21
-  - 2022 - day 7
+<li class="opacity-30">Introduktion av TDD</li>
+<li class="opacity-30">Ensemblesession: CEO Bowling</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Kort mellanspel</li>
+<li class="opacity-100 text-1.3em">Parprogrammering</li>
+
+</ul>
 
 ---
 layout: center
@@ -270,12 +325,9 @@ layout: center
 
 <v-clicks>
 
-- What was the hardest?
-- How many finished the CEO Bowling kata?
-- How many have strictly followed the TDD cycle?
-- Will you continue with TDD when you leave the roow?
-  - Completely?
-  - Now and then?
+- Vad var svårast?
+- Hur många har strikt följt TDD-cykeln?
+- Vad blir svårast med att använda TDD "till vardags"?
 
 </v-clicks>
 
@@ -283,7 +335,7 @@ layout: center
 layout: intro
 ---
 
-# Thanks!
+# Tack!
 
 Daniel Raniz Raneland
 
