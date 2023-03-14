@@ -851,7 +851,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slidev/cli@npm:^0.40.2":
+"@slidev/cli@npm:^0.40.3":
   version: 0.40.3
   resolution: "@slidev/cli@npm:0.40.3"
   dependencies:
@@ -1824,7 +1824,7 @@ __metadata:
   resolution: "business-testing@workspace:."
   dependencies:
     "@iconify-json/mdi": ^1.1.46
-    "@slidev/cli": ^0.40.2
+    "@slidev/cli": ^0.40.3
     "@slidev/theme-default": ^0.21.2
     postcss: ^8.4.21
   languageName: unknown
