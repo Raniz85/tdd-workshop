@@ -118,6 +118,9 @@ layout: center
 <li v-click>Repeat</li>
 </ol>
 
+
+---
+transition: fade
 ---
 
 # Why Do We Fail?
@@ -137,9 +140,6 @@ class PersonTest {
 ```
 
 </v-clicks>
-
----
-transition: fade
 ---
 
 # Why Do We Fail?
@@ -179,10 +179,18 @@ layout: center
 
 # What Should We Test?
 
+<div style="opacity: 0">
+
+```python
+def radius(diameter):
+  return diameter / 2
+```
+
+</div>
+
 ```python
 def circle_area(diameter):
-  radius =  diameter / 2
-  return math.PI * radius ** 2
+  return math.PI * (diameter / 2) ** 2
 ```
 
 ---
@@ -192,7 +200,6 @@ def circle_area(diameter):
 ```python
 def radius(diameter):
   return diameter / 2
-
 
 def circle_area(diameter):
   return math.PI * radius(diameter) ** 2
