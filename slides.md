@@ -288,13 +288,15 @@ layout: intro
 Daniel Raniz Raneland
 
 <ul class="list-none! columns-2">
+
   <li><mdi-firefox />factor10.com</li>
-  <li><mdi-email />ranisz@factor10.com</li>
-  <li>&nbsp;</li>
+  <li><mdi-email />raniz@factor10.com</li>
   <li><mdi-github />Raniz85</li>
+  <li><mdi-mastodon />raniz@mastodon.online</li>
+
   <li><mdi-firefox />raniz.blog</li>
   <li><mdi-linkedin />/in/raneland</li>
-  <li><mdi-mastodon />raniz@mastodon.online</li>
   <li><mdi-gitlab />raniz</li>
-</ul>
+  <li>&nbsp;</li>
 
+</ul>
