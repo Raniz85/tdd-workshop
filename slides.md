@@ -26,7 +26,8 @@ layout: intro
 
 # TDD Workshop
 
-Daniel Raniz Raneland
+Daniel Raniz Raneland<br />
+Coding Architect @ factor10
 
 <ul class="list-none! columns-2">
 
@@ -39,6 +40,23 @@ Daniel Raniz Raneland
   <li><mdi-linkedin />/in/raneland</li>
   <li><mdi-gitlab />raniz</li>
   <li>&nbsp;</li>
+
+</ul>
+
+---
+layout: center
+---
+
+# Agenda
+
+<ul>
+
+<li class="opacity-100 text-1.3em">TDD introduction</li>
+<li class="opacity-30">Ensemble session: TDB</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Short intermission</li>
+<li class="opacity-30">Pair programming: TBD</li>
+<li class="opacity-30">Closing up</li>
 
 </ul>
 
@@ -212,24 +230,107 @@ layout: fact
 # Live Demo
 
 ---
-layout: statement
+layout: center
 ---
 
-# Your Turn!
+<ul>
 
-## https://raniz85.github.io/ceo-bowling-kata/
+<li class="opacity-30">TDD introduction</li>
+<li class="opacity-100 text-1.3em">Ensemble session: TBD</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Short intermission</li>
+<li class="opacity-30">Pair programming</li>
+<li class="opacity-30">Closing up</li>
 
-<p></p>
+</ul>
+
+---
+layout: fact
+---
+
+# Ensemble Time!
+
+## https://tdd-katas.github.io/X
 
 ## https://github.com/tdd-starters/
 
 ---
+layout: center
+---
 
-# Intermission
+# Evaluation
 
-- What is hard?
-- How many have reached part 2 or beyond?
-- How many have strictly followed the TDD cycle?
+- How did it go?
+- What was hard?
+
+---
+layout: center
+---
+
+<ul>
+
+<li class="opacity-30">TDD introduction</li>
+<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-100 text-1.3em">Lunch</li>
+<li class="opacity-30">Short intermission</li>
+<li class="opacity-30">Pair programming</li>
+<li class="opacity-30">Closing up</li>
+
+</ul>
+
+---
+layout: center
+---
+
+<ul>
+
+<li class="opacity-30">TDD introduction</li>
+<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-100 text-1.3em">Short intermission</li>
+<li class="opacity-30">Pair programming</li>
+<li class="opacity-30">Closing up</li>
+
+</ul>
+
+---
+layout: statement
+---
+
+# Testing is a Craft
+
+<!--
+practice makes perfect
+-->
+
+---
+layout: statement
+---
+
+# Testing is Software Development
+
+<!--
+Just like setting up a new project, setting up the first test takes time
+-->
+
+---
+layout: image
+image: /images/cost-over-time-1.png
+---
+
+<!--
+Kostnaden för att lägga till nya features ökar exponentiellt med tiden
+-->
+
+---
+layout: image
+image: /images/cost-over-time-2.png
+---
+
+<!--
+Med bra testtäckning ökar kostnaden mycket långsammare och mer asymptotiskt
+Källa: Kent Beck
+-->
 
 ---
 layout: center
@@ -253,6 +354,32 @@ layout: center
 layout: center
 ---
 
+<ul>
+
+<li class="opacity-30">TDD introduction</li>
+<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-30">Lunch</li>
+<li class="opacity-30">Short intermission</li>
+<li class="opacity-100 text-1.3em">Pair programming</li>
+<li class="opacity-30">Closing up</li>
+
+</ul>
+
+---
+layout: fact
+---
+
+# Your Turn!
+
+## https://tdd-katas.github.io/X
+
+## https://github.com/tdd-starters/
+
+
+---
+layout: center
+---
+
 # If You Finish Early
 
 - FizzBuzz
@@ -270,10 +397,10 @@ layout: center
 
 <v-clicks>
 
-- What was the hardest?
-- How many finished the CEO Bowling kata?
+- How many finished the kata?
 - How many have strictly followed the TDD cycle?
-- Will you continue with TDD when you leave the roow?
+- What was the hardest?
+- Will you continue with TDD when you leave the room?
   - Completely?
   - Now and then?
 
@@ -285,7 +412,8 @@ layout: intro
 
 # Thanks!
 
-Daniel Raniz Raneland
+Daniel Raniz Raneland<br />
+Coding Architect @ factor10
 
 <ul class="list-none! columns-2">
 
@@ -296,7 +424,7 @@ Daniel Raniz Raneland
 
   <li><mdi-firefox />raniz.blog</li>
   <li><mdi-linkedin />/in/raneland</li>
-  <li><mdi-gitlab />raniz</li>
+  <li><mdi-gitlab />Raniz</li>
   <li>&nbsp;</li>
 
 </ul>
