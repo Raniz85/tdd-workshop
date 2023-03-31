@@ -52,10 +52,10 @@ layout: center
 <ul>
 
 <li class="opacity-100 text-1.3em">TDD introduction</li>
-<li class="opacity-30">Ensemble session: TDB</li>
+<li class="opacity-30">Ensemble session</li>
 <li class="opacity-30">Lunch</li>
 <li class="opacity-30">Short intermission</li>
-<li class="opacity-30">Pair programming: TBD</li>
+<li class="opacity-30">Pair programming</li>
 <li class="opacity-30">Closing up</li>
 
 </ul>
@@ -236,7 +236,7 @@ layout: center
 <ul>
 
 <li class="opacity-30">TDD introduction</li>
-<li class="opacity-100 text-1.3em">Ensemble session: TBD</li>
+<li class="opacity-100 text-1.3em">Ensemble session</li>
 <li class="opacity-30">Lunch</li>
 <li class="opacity-30">Short intermission</li>
 <li class="opacity-30">Pair programming</li>
@@ -270,7 +270,7 @@ layout: center
 <ul>
 
 <li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-30">Ensemble session</li>
 <li class="opacity-100 text-1.3em">Lunch</li>
 <li class="opacity-30">Short intermission</li>
 <li class="opacity-30">Pair programming</li>
@@ -285,7 +285,7 @@ layout: center
 <ul>
 
 <li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-30">Ensemble session</li>
 <li class="opacity-30">Lunch</li>
 <li class="opacity-100 text-1.3em">Short intermission</li>
 <li class="opacity-30">Pair programming</li>
@@ -310,7 +310,7 @@ layout: statement
 # Testing is Software Development
 
 <!--
-Just like setting up a new project, setting up the first test takes time
+Precis som när man startar ett nytt projekt kräver test setup
 -->
 
 ---
@@ -350,6 +350,10 @@ layout: center
 <li v-click>Repeat (from 5)</li>
 </ol>
 
+<!--
+Per kallar det Test Driven Uncommenting
+-->
+
 ---
 layout: center
 ---
@@ -357,7 +361,7 @@ layout: center
 <ul>
 
 <li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session: TBD</li>
+<li class="opacity-30">Ensemble session</li>
 <li class="opacity-30">Lunch</li>
 <li class="opacity-30">Short intermission</li>
 <li class="opacity-100 text-1.3em">Pair programming</li>
@@ -375,6 +379,11 @@ layout: fact
 
 ## https://github.com/tdd-starters/
 
+<!--
+Tips:
+- Försök tänka produktionskod
+- Fuska lite om du inte vet vart du ska börja
+-->
 
 ---
 layout: center
