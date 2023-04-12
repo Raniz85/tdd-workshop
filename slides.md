@@ -258,7 +258,7 @@ layout: fact
 
 # Ensemble Time!
 
-## https://tdd-katas.github.io/X
+## https://raniz85.github.io/tdd-katas/ceo-bowling/
 
 ## https://github.com/tdd-starters/
 
@@ -383,7 +383,7 @@ layout: fact
 
 # Your Turn!
 
-## https://tdd-katas.github.io/X
+## https://raniz85.github.io/tdd-katas/test-flight/
 
 ## https://github.com/tdd-starters/
 
