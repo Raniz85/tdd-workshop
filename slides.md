@@ -26,12 +26,20 @@ layout: intro
 
 # TDD Workshop
 
-Daniel Raniz Raneland<br />
-Coding Architect @ factor10
+Daniel Raniz Raneland | Nizar Selander<br />
+Coding Architects @ factor10
 
 <ul class="list-none! columns-2">
 
   <li><mdi-firefox />factor10.com</li>
+  <li><mdi-email />raniz@factor10.com</li>
+  <li><mdi-firefox />raniz.blog</li>
+  <li>&nbsp;</li>
+
+  <li>&nbsp;</li>
+  <li><mdi-email />nizar.selander@factor10.com</li>
+  <li><mdi-firefox />nizar.se</li>
+<!--
   <li><mdi-email />raniz@factor10.com</li>
   <li><mdi-github />Raniz85</li>
   <li><mdi-mastodon />raniz@mastodon.online</li>
@@ -40,7 +48,7 @@ Coding Architect @ factor10
   <li><mdi-linkedin />/in/raneland</li>
   <li><mdi-gitlab />raniz</li>
   <li>&nbsp;</li>
-
+-->
 </ul>
 
 ---
@@ -421,19 +429,27 @@ layout: intro
 
 # Thanks!
 
-Daniel Raniz Raneland<br />
-Coding Architect @ factor10
+Daniel Raniz Raneland | Nizar Selander<br />
+Coding Architects @ factor10
 
 <ul class="list-none! columns-2">
 
   <li><mdi-firefox />factor10.com</li>
+  <li><mdi-email />raniz@factor10.com</li>
+  <li><mdi-firefox />raniz.blog</li>
+  <li>&nbsp;</li>
+
+  <li>&nbsp;</li>
+  <li><mdi-email />nizar.selander@factor10.com</li>
+  <li><mdi-firefox />nizar.se</li>
+<!--
   <li><mdi-email />raniz@factor10.com</li>
   <li><mdi-github />Raniz85</li>
   <li><mdi-mastodon />raniz@mastodon.online</li>
 
   <li><mdi-firefox />raniz.blog</li>
   <li><mdi-linkedin />/in/raneland</li>
-  <li><mdi-gitlab />Raniz</li>
+  <li><mdi-gitlab />raniz</li>
   <li>&nbsp;</li>
-
+-->
 </ul>
