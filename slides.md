@@ -383,7 +383,7 @@ layout: fact
 
 # Your Turn!
 
-## https://raniz85.github.io/tdd-katas/test-flight/
+## https://raniz85.github.io/tdd-katas/
 
 ## https://github.com/tdd-starters/
 
