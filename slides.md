@@ -26,20 +26,10 @@ layout: intro
 
 # TDD Workshop
 
-Daniel Raniz Raneland | Nizar Selander<br />
-Coding Architects @ factor10
+Daniel Raniz Raneland<br />
+Coding Architect @ factor10
 
 <ul class="list-none! columns-2">
-
-  <li><mdi-firefox />factor10.com</li>
-  <li><mdi-email />raniz@factor10.com</li>
-  <li><mdi-firefox />raniz.blog</li>
-  <li>&nbsp;</li>
-
-  <li>&nbsp;</li>
-  <li><mdi-email />nizar.selander@factor10.com</li>
-  <li><mdi-firefox />nizar.se</li>
-<!--
   <li><mdi-email />raniz@factor10.com</li>
   <li><mdi-github />Raniz85</li>
   <li><mdi-mastodon />raniz@mastodon.online</li>
@@ -48,24 +38,6 @@ Coding Architects @ factor10
   <li><mdi-linkedin />/in/raneland</li>
   <li><mdi-gitlab />raniz</li>
   <li>&nbsp;</li>
--->
-</ul>
-
----
-layout: center
----
-
-# Agenda
-
-<ul>
-
-<li class="opacity-100 text-1.3em">TDD introduction</li>
-<li class="opacity-30">Ensemble session</li>
-<li class="opacity-30">Lunch</li>
-<li class="opacity-30">Short intermission</li>
-<li class="opacity-30">Pair programming</li>
-<li class="opacity-30">Closing up</li>
-
 </ul>
 
 ---
@@ -238,68 +210,20 @@ layout: fact
 # Live Demo
 
 ---
-layout: center
----
-
-<ul>
-
-<li class="opacity-30">TDD introduction</li>
-<li class="opacity-100 text-1.3em">Ensemble session</li>
-<li class="opacity-30">Lunch</li>
-<li class="opacity-30">Short intermission</li>
-<li class="opacity-30">Pair programming</li>
-<li class="opacity-30">Closing up</li>
-
-</ul>
-
----
 layout: fact
 ---
 
-# Ensemble Time!
+# Your Turn!
 
-## https://raniz85.github.io/tdd-katas/ceo-bowling/
+## https://raniz85.github.io/tdd-katas/
 
 ## https://github.com/tdd-starters/
 
----
-layout: center
----
-
-# Evaluation
-
-- How did it go?
-- What was hard?
-
----
-layout: center
----
-
-<ul>
-
-<li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session</li>
-<li class="opacity-100 text-1.3em">Lunch</li>
-<li class="opacity-30">Short intermission</li>
-<li class="opacity-30">Pair programming</li>
-<li class="opacity-30">Closing up</li>
-
-</ul>
-
----
-layout: center
----
-
-<ul>
-
-<li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session</li>
-<li class="opacity-30">Lunch</li>
-<li class="opacity-100 text-1.3em">Short intermission</li>
-<li class="opacity-30">Pair programming</li>
-<li class="opacity-30">Closing up</li>
-
-</ul>
+<!--
+Tips:
+- Försök tänka produktionskod
+- Fuska lite om du inte vet vart du ska börja
+-->
 
 ---
 layout: statement
@@ -366,37 +290,6 @@ Per kallar det Test Driven Uncommenting
 layout: center
 ---
 
-<ul>
-
-<li class="opacity-30">TDD introduction</li>
-<li class="opacity-30">Ensemble session</li>
-<li class="opacity-30">Lunch</li>
-<li class="opacity-30">Short intermission</li>
-<li class="opacity-100 text-1.3em">Pair programming</li>
-<li class="opacity-30">Closing up</li>
-
-</ul>
-
----
-layout: fact
----
-
-# Your Turn!
-
-## https://raniz85.github.io/tdd-katas/
-
-## https://github.com/tdd-starters/
-
-<!--
-Tips:
-- Försök tänka produktionskod
-- Fuska lite om du inte vet vart du ska börja
--->
-
----
-layout: center
----
-
 # If You Finish Early
 
 - FizzBuzz
@@ -429,20 +322,10 @@ layout: intro
 
 # Thanks!
 
-Daniel Raniz Raneland | Nizar Selander<br />
-Coding Architects @ factor10
+Daniel Raniz Raneland<br />
+Coding Architect @ factor10
 
 <ul class="list-none! columns-2">
-
-  <li><mdi-firefox />factor10.com</li>
-  <li><mdi-email />raniz@factor10.com</li>
-  <li><mdi-firefox />raniz.blog</li>
-  <li>&nbsp;</li>
-
-  <li>&nbsp;</li>
-  <li><mdi-email />nizar.selander@factor10.com</li>
-  <li><mdi-firefox />nizar.se</li>
-<!--
   <li><mdi-email />raniz@factor10.com</li>
   <li><mdi-github />Raniz85</li>
   <li><mdi-mastodon />raniz@mastodon.online</li>
@@ -451,5 +334,4 @@ Coding Architects @ factor10
   <li><mdi-linkedin />/in/raneland</li>
   <li><mdi-gitlab />raniz</li>
   <li>&nbsp;</li>
--->
 </ul>
