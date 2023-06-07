@@ -41,6 +41,36 @@ Coding Architect @ factor10
 </ul>
 
 ---
+
+# About Raniz
+
+
+<div class="relative w-full h-full"><v-clicks>
+  <div class="absolute top-50 left-10">
+  &gt;15 years in the industry
+  </div>
+  <div class="absolute top-75 left-25">
+  Masters degree from LTH
+  </div>
+  <div class="absolute top-100 left-150">
+  Sony Mobile Tokyo
+  </div>
+  <div class="absolute top-15 left-80">
+  Spiideo
+  </div>
+  <div class="absolute top-65 left-120">
+  Factor10
+  </div>
+  <div class="absolute top-30 left-120">
+  2 kids, 1 wife, 0 pets
+  </div>
+  <div class="absolute top-5 left-150">
+  Triathlete?
+  </div>
+
+</v-clicks></div>
+
+---
 layout: center
 ---
 
@@ -62,7 +92,7 @@ layout: center
 
 <v-clicks>
 
-- By writing the tests first, the code is by definition testable
+- Testable code leads to looser coupling - i.e. better maintainability
 - Tests are forced to be _meaningful_
 
 </v-clicks>
