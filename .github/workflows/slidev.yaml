@@ -34,8 +34,13 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: yarn install --immutable
+      - name: Install Playwright (for PDF rendering)
+        run: yarn add --dev playwright-chromium
       - name: Build presentation
-        run: yarn slidev build --base $(basename $GITHUB_REPOSITORY)/
+        run: |
+          yarn slidev build \
+            --base /$(basename $GITHUB_REPOSITORY)/ \
+            --download
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
