@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
       - name: Build presentation
-        run: yarn slidev build --base $(basename $GITHUB_REPOSITORY) 
+        run: yarn slidev build --base $(basename $GITHUB_REPOSITORY)/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
