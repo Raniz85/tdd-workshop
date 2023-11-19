@@ -223,49 +223,54 @@ layout: center
 
 # What Should We Test?
 
-```python
-def circle_area(radius):
-  return math.PI * radius ** 2
+```rust
+fn circle_area(radius: f64) -> f64 {
+    radius * radius * PI
+}
 ```
 
 ---
 
 # What Should We Test?
 
-```python
-def radius(diameter):
-  return diameter / 2
+```rust
+fn radius_from_diameter(diameter: f64) -> f64 {
+    diameter / 2f64;
+}
 
-def circle_area_from_diameter(diameter):
-  return math.PI * radius(diameter) ** 2
+fn circle_area_diameter(diameter: f64) -> f64 {
+    let radius = radius_from_diameter(diameter);
+    radius * radius * PI
+}
 ```
 
 ---
 
 # What Should We Test?
 
-```python
-def determinant3(a, b, c, d, e, f, g, h, i):
-  """Calculate the determinant of a 3x3 matrix"""
-  return a*e*i + b*f*g + c*d*h - a*f*h - b*d*i - c*e*g
+```rust
+fn determinant3(a: f64, b: f64, c: f64, d: f64, e: f64, f: f64, g: f64, h: f64, i: f64) -> f64 {
+    a * e * i + b * f * g + c * d * h - a * f * h - b * d * i - c * e * g
+}
 
-def radius_from_points(p1, p2, p3):
-  """Calculate the radius given 3 points on a circle"""
-  d = determinant3(p1.x, p1.y, 1, p2.x, p2.y, 1, p3.x, p3.y, 1)
-  d1 = determinant3(p1.x**2 + p1.y**2, p1.y, 1, p2.x**2 + p2.y**2, p2.y, 1, p3.x**2 + p3.y**2, p3.y, 1)
-  d2 = determinant3(p1.x, p1.x**2 + p1.y**2, 1, p2.x, p2.x**2 + p2.y**2, 1, p3.x, p3.x**2 + p3.y**2, 1)
-
-  if d == 0:
-    raise ValueError("The provided points are collinear")
-
-  # Center of the circle
-  cx = -d1 / (2*d)
-  cy = d2 / (2*d)
-
-  # Radius of the circle
-  radius = math.sqrt((cx - p1.x)**2 + (cy - p1.y)**2)
-
-  return radius
+fn radius_from_points(p1: Point, p2: Point, p3: Point) -> f64 {
+    // Calculate the radius given 3 points on a circle
+    let d = determinant3(p1.x, p1.y, 1.0,
+                         p2.x, p2.y, 1.0,
+                         p3.x, p3.y, 1.0);
+    let d1 = determinant3(p1.x.powi(2) + p1.y.powi(2), p1.y, 1.0,
+                          p2.x.powi(2) + p2.y.powi(2), p2.y, 1.0,
+                          p3.x.powi(2) + p3.y.powi(2), p3.y, 1.0);
+    let d2 = determinant3(p1.x, p1.x.powi(2) + p1.y.powi(2), 1.0,
+                          p2.x, p2.x.powi(2) + p2.y.powi(2), 1.0,
+                          p3.x, p3.x.powi(2) + p3.y.powi(2), 1.0);
+    if d == 0.0 {
+        panic!("The provided points are collinear");
+    }
+    let cx = -d1 / (2.0 * d);
+    let cy = d2 / (2.0 * d);
+    ((cx - p1.x).powi(2) + (cy - p1.y).powi(2)).sqrt()
+}
 ```
 
 ---
