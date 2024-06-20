@@ -1,6 +1,5 @@
 <template>
   <div class="bg-main slidev-layout">
-    <factor10-logo></factor10-logo>
     <slot name="outer"></slot>
     <div :class="props.class">
       <slot />
