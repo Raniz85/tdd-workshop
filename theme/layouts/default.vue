@@ -1,7 +1,7 @@
 <template>
   <div class="bg-main slidev-layout">
-    <factor10-logo></factor10-logo>
-    <div class="my-auto">
+    <slot name="outer"></slot>
+    <div :class="props.class">
       <slot />
     </div>
   </div>
@@ -14,4 +14,9 @@ import Factor10Logo from '../components/Factor10Logo.vue'
 const components = defineComponent({
   Factor10Logo,
 })
+const props = withDefaults(defineProps<{
+  class: string,
+}>(), {
+  class: "my-auto"
+});
 </script>
