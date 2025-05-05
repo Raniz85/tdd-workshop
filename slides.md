@@ -187,7 +187,7 @@ class PersonTest {
 ---
 
 # Why Do We Fail?
-
+````md magic-move
 ```python
 import unittest
 from unittest.mock import MagicMock
@@ -210,6 +210,51 @@ class Tests(unittest.TestCase):
 if __name__ == "__main__": 
     unittest.main()
 ```
+```python
+import unittest
+from unittest.mock import MagicMock
+
+def call_method(method, *args):
+    pass
+
+class Tests(unittest.TestCase):
+
+  def test_call_method(self):
+    # Given a method to call
+    mock = MagicMock()
+
+    # when the call_method method is called
+    call_method(mock, (1, 2, 3))
+
+    # the mock is called with the expected arguments
+    assert mock.called_with(1, 2, 3)
+
+if __name__ == "__main__":
+  unittest.main()
+```
+```python
+import unittest
+from unittest.mock import MagicMock
+
+def call_method(method, *args):
+    pass
+
+class Tests(unittest.TestCase):
+
+  def test_call_method(self):
+    # Given a method to call
+    mock = MagicMock()
+
+    # when the call_method method is called
+    call_method(mock, (1, 2, 3))
+
+    # the mock is called with the expected arguments
+    assert mock.assert_called_with(1, 2, 3)
+
+if __name__ == "__main__":
+  unittest.main()
+```
+````
 
 ---
 layout: center
